@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672247519150",
+    "firebase_url": "https://shop-dde4a.firebaseio.com",
+    "project_id": "shop-dde4a",
+    "storage_bucket": "shop-dde4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672247519150:android:ee9c484c5f224d09a15a3f",
+        "android_client_info": {
+          "package_name": "com.example.android.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672247519150-0a1v9q1n794t0ngt238eouihlsvs1ckg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.shop",
+            "certificate_hash": "3de4662310d5cc8eb391a16369f382f960398a03"
+          }
+        },
+        {
+          "client_id": "672247519150-356no0uua8ffb4g8kna8nkhpjpjm5ic0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGdjYCaMM9vw5hpqJ3-pn0W21QVA3An5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672247519150-356no0uua8ffb4g8kna8nkhpjpjm5ic0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
