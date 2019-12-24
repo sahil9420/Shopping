@@ -41,12 +41,15 @@ public class MainActivity extends AppCompatActivity {
                         mCallback);                      // OnVerificationStateChangedCallbacks
             }
         });
+
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 otp=etOTP.getText().toString();
                 PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationCode, otp);
                 SigninWithPhone(credential);
+                Intent intent =new Intent(MainActivity.this,register.class);
+                startActivity(intent);
             }
         });
     }
